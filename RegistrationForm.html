@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center><h1><b><u>Registration Form</u></b></h1></center>
+<table border = '2' cellpadding = '10' align = 'center'>
+    <thead>
+        <tr>
+            <td><label for="First Name">First Name</label></td>
+            <td><input type="text" name = 'First Name' placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td><label for="Second Name">Second Name</label></td>
+            <td><input type="text" name = 'Second Name' placeholder = 'Enter your second name'></td>
+        </tr>
+        <tr>
+            <td><label for="Gender">Gender</label></td>
+            <td><input type="radio" id = '' value="Male">Male
+            <input type="radio" id = '' value = "Female">Female</td>
+        </tr>
+        <tr>
+            <td><label for="DOB">DOB</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label for="Qualification">Qualification</label></td>
+            <td><input type="checkbox" id = '' value = 'MCA'>MCA
+                <input type="checkbox" id = '' value = 'MBA'>MBA
+                <input type="checkbox" id = '' value = 'MTECH'>MTECH
+                <input type="checkbox" id = '' value = 'OTHER'>OTHER
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Contact">Contact</label></td>
+            <td><input type="number" name = 'Contact' placeholder="Enter your contact number"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="email" name = 'Email' placeholder = 'Enter your mail address'></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Address</label></td>
+            <td><textarea name = "Address" id = ''></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="select Department">Select Department</label></td>
+            <td><select name="Department" id="Department">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select></td>
+        </tr>
+        <td colspan = '2' align="center">
+            <input type="submit" value = 'Register'>
+            <input type="button" value="Cancel" onclick="window.location.href='cancel_page.html';">
+
+        </td>
+        <tr>
+
+        </tr>
+    </thead>
+
+</table>
+<center><h2>Login Form</h2></center>
+<table border = '2' cellpadding = '10' align = 'center'>
+    <thead>
+        <tr>
+            <td><label for="Username">Username</label></td>
+            <td><input type="text" name="Username" placeholder="Enter your username"></td>
+        </tr>
+        <tr>
+            <td><label for="Password">Password</label></td>
+            <td><input type="password" name = 'Password' placholder = 'Enter your password'></input></td>
+        </tr>
+        <tr>
+            <td colspan = '2' align = 'center'>
+                <input type = "submit" value = "Login">
+                <input type="button" value = 'Cancel' onclick="window.location.href='cancel_page.html';">
+            </td>
+        </tr>
+    </thead>
+</table>
+<body>
+    
+</body>
+</html>
